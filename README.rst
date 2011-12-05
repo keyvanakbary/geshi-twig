@@ -13,7 +13,7 @@ Copy and mix the "geshi" folder with your own geshi installation.
 Usage
 -----
 
-A tipical use can be::
+A typical use can be::
 
     include_once 'geshi.php';
     $source = <<<SOURCE
