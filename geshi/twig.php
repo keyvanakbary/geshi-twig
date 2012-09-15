@@ -1,42 +1,9 @@
 <?php
-/*************************************************************************************
- * twig.php
- * ----------
- * Author: Keyvan Akbary (keyvan@kiwwito.com)
- * Copyright: (c) 2011 Keyvan Akbary (http://www.kiwwito.com/)
- * Release Version: 1.0.0
- * Date Started: 2011/12/05
- *
- * Twig template language file for GeSHi.
- *
- * CHANGES
- * -------
- * 2011/12/05 (1.0.0)
- *   -  Initial Release
- *
- * TODO
- * ----
- *
- *************************************************************************************
- *
- *     This file is part of GeSHi.
- *
- *   GeSHi is free software; you can redistribute it and/or modify
- *   it under the terms of the GNU General Public License as published by
- *   the Free Software Foundation; either version 2 of the License, or
- *   (at your option) any later version.
- *
- *   GeSHi is distributed in the hope that it will be useful,
- *   but WITHOUT ANY WARRANTY; without even the implied warranty of
- *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *   GNU General Public License for more details.
- *
- *   You should have received a copy of the GNU General Public License
- *   along with GeSHi; if not, write to the Free Software
- *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- *
- ************************************************************************************/
 
+/**
+ * @author Keyvan Akbary <me@keyvanakbary.com>
+ * @version 1.0.1
+ */
 $language_data = array(
     'LANG_NAME' => 'Twig',
     'COMMENT_SINGLE' => array(),
@@ -45,11 +12,10 @@ $language_data = array(
     'QUOTEMARKS' => array("'", '"'),
     'ESCAPE_CHAR' => '',
     'KEYWORDS' => array(
-        //TWIG
         //Tags
         1 => array(
             'autoescape', 'endautoescape', 'block', 'endblock', 'extends',
-            'filter', 'endfilter', 'for', 'endfor', 'from', 'if', 'endif',
+            'filter', 'endfilter', 'for', 'endfor', 'from', 'if', 'else', 'elseif', 'endif',
             'import', 'include', 'macro', 'endmacro', 'raw', 'endraw', 'set',
             'spaceless', 'endspaceless', 'use'
         ),
