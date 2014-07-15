@@ -1,15 +1,11 @@
-Twig language for GeSHi
-=======================
-[GeSHi] language pack for [Twig] syntax recognition. Two files included: "twig" and "twightml". First one only recognizes Twig syntax, second one recognizes HTML too.
+# Geshi Twig
 
-Installation
-------------
-Copy and mix the "geshi" folder with your own geshi installation.
+[Geshi](http://qbnz.com/highlighter/) language pack for [Twig](http://twig.sensiolabs.org/) syntax recognition. Two flavors: `twig` and `twightml`. While `twig` recognizes just Twig syntax, `twightml` recognizes HTML too!
 
-Usage
------
+## Usage
 ```php
 include_once 'geshi.php';
+
 $source = <<<SOURCE
 {% if users|length > 0 %}
     <ul>
@@ -19,14 +15,8 @@ $source = <<<SOURCE
     </ul>
 {% endif %}
 SOURCE;
+
 $geshi = new GeSHi($source, 'twig');
+
 echo $geshi->parse_code();
 ```
-
-Issues
-------
-If you have any problems or suggestions feel free to [open an issue].
-
-  [GeSHi]: http://qbnz.com/highlighter/
-  [Twig]: http://twig.sensiolabs.org/
-  [open an issue]:http://github.com/keyvanakbary/geshi-twig/issues
