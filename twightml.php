@@ -1,10 +1,6 @@
 <?php
 
-/**
- * @author Keyvan Akbary <me@keyvanakbary.com>
- * @author Nigel McNie <nigel@geshi.org>
- * @version 1.0.1
- */
+//HTML Support thanks to the work of Nigel McNie <nigel@geshi.org>
 $language_data = array(
     'LANG_NAME' => 'Twig',
     'COMMENT_SINGLE' => array(),
@@ -41,7 +37,7 @@ $language_data = array(
         5 => array(
             'in', 'is', 'and', 'or', 'not'
         ),
-        //HTML Support
+        //HTML
         //Tags
         6 => array(
             'a', 'abbr', 'acronym', 'address', 'applet',

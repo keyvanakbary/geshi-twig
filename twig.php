@@ -1,9 +1,5 @@
 <?php
 
-/**
- * @author Keyvan Akbary <me@keyvanakbary.com>
- * @version 1.0.1
- */
 $language_data = array(
     'LANG_NAME' => 'Twig',
     'COMMENT_SINGLE' => array(),
